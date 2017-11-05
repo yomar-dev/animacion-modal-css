@@ -14,9 +14,8 @@ body{
 }
 
 .modal{
-	width: 100px;
-	height: 100px;
-	background-color: teal;
+	width: 500px;
+	background-color: #fff;
 	animation: animationOut 1s forwards;
 }
 
