@@ -11,12 +11,17 @@ body{
 	right: 0;
 	bottom: 0;
 	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .modal{
 	width: 500px;
 	background-color: #fff;
 	animation: animationOut 1s forwards;
+	padding: 2em;
+	border-radius: .5em;
 }
 
 @keyframes animationIn {
