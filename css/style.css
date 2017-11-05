@@ -2,6 +2,9 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
+	margin: 0;
+	font-family: Arial;
 }
 
 .overlay{
@@ -19,9 +22,10 @@ body{
 .modal{
 	width: 500px;
 	background-color: #fff;
-	animation: animationOut 1s forwards;
+	animation: animationIn 1s forwards;
 	padding: 2em;
 	border-radius: .5em;
+	text-align: center;
 }
 
 @keyframes animationIn {
