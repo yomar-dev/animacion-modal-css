@@ -8,8 +8,8 @@ body{
 }
 
 .btn{
+	background: ligthgray;
 	text-align: center;
-	background: #7dc800;
 	cursor: pointer;
 	padding: .6em .8em .8em;
 	border: none;
@@ -20,6 +20,14 @@ body{
 	outline: 0;
 	transition: .2s;
 	will-change: transform;
+}
+
+.btn.primary{
+	background: #7dc800;	
+}
+
+.btn.warning{
+	background: #ff463b;
 }
 
 .btn:active{
