@@ -22,6 +22,10 @@ body{
 	will-change: transform;
 }
 
+.btn:hover{
+	cursor: pointer;
+}
+
 .btn.primary{
 	background: #7dc800;	
 }
@@ -44,6 +48,14 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	transition: 2s ease-in;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.overlay.active{
+	opacity: 1;
+	visibility: visible;
 }
 
 .modal{
